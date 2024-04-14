@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.pad {
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  box-shadow: 0em 0em 0.5em 0.1em #0000001e;
+  padding: 0.2em;
+  border-radius: 0 0 2rem 2rem ;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  padding: 0.5em;
+  background-color: transparent;
+  outline: 0px;
+  border: 0px;
+  border-radius: 10em;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.key:hover {
+  background-color: #00000013;
+}
+
+.key-action {
+  padding: 0.5em;
+  background-color: transparent;
+  outline: 0px;
+  border: 0px;
+  border-radius: 10em;
+  width: 2.5em;
+  height: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: red */
+}
+
+.key-action:hover {
+  background-color: #00000022;
+}
+
+.input {
+  padding: 0.5em;
+  border: 0px;
+  text-align: center;
+  outline: none;
+  border-bottom: #00000018 solid 1px;
+  width: 100%;
+}
+
+.status {
+  font-size: 0.3em;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+  color: dodgerblue;
+}
+
+.inp {
+  padding: 0.7rem 1.2rem;
+  border-radius: 1rem;
+  outline: none;
+  border: 1px solid #9b9b9b;
+  width: 100%;
+  direction: rtl;
+}
+.inp:hover {
+  border-color: #3a3a3a
+}
+.field-input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btn {
+  background-color: #0cc21b;
+  width: 100%;
+  padding: 1rem;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+.btn-pad-open {
+  border-radius: 1.5rem !important;
+}
+
+.numericPad {
+  width: 100%;
+}
